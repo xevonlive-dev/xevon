@@ -1,0 +1,65 @@
+version: 2
+
+project_name: xevon
+dist: build/dist
+
+snapshot:
+  version_template: "{{ if .Env.XEVON_VERSION }}{{ .Env.XEVON_VERSION }}{{ else }}0.0.1-alpha{{ end }}"
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: xevon
+    main: ./cmd/xevon
+    binary: xevon
+    # Stage the matching xevon-audit blob into the go:embed path before
+    # each target builds. The embed path is a single shared file, so builds
+    # MUST run sequentially — see `--parallelism 1` in the snapshot/release
+    # make targets. Without this, every cross-compiled binary embeds the host
+    # blob (e.g. a macOS arm64 audit binary shipped inside a linux/amd64
+    # build).
+    hooks:
+      pre:
+        - cmd: bash build/scripts/stage-audit-blob.sh {{ .Os }} {{ .Arch }}
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -buildvcs=false
+    ldflags:
+      - -s -w
+      - -X github.com/xevonlive-dev/xevon/pkg/cli.Version=v{{.Version}}
+      - -X github.com/xevonlive-dev/xevon/pkg/cli.Commit={{.ShortCommit}}
+      - -X github.com/xevonlive-dev/xevon/pkg/cli.BuildTime={{.Date}}
+    goos:
+      - linux
+      - darwin
+      # - windows
+    goarch:
+      - amd64
+      - arm64
+    # ignore:
+    #   - goos: windows
+    #     goarch: arm64
+
+archives:
+  - formats:
+      - tar.gz
+    name_template: "xevon_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: 'checksums.txt'
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - '^chore:'
+
+release:
+  github:
+    owner: xevon
+    name: xevon

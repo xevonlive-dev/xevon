@@ -1,0 +1,113 @@
+# If you prefer a global ignore file, keep this minimal.
+
+# Binaries
+bin/
+dist/**
+dist/config.yaml
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+.DS_Store
+node_modules
+.turbo
+*.log
+dist
+*.local
+.env
+.cache
+server/dist
+public/dist
+**/.vitepress/dist/**
+**/.vitepress/cache/**
+.netlify
+bin
+
+# The broad `bin` / `bin/` rules above match at every directory depth, which
+# also swallowed pkg/audit/bin/ — the Go package that embeds the xevon-audit
+# host binary. That dropped its sources (embed.go, extract.go) from git, so
+# fresh clones failed to build with "no required module provides package
+# github.com/xevonlive-dev/xevon/pkg/audit/bin". Re-include the package source
+# and the _bin placeholder; the multi-MiB binary under _bin/ stays ignored via
+# pkg/audit/bin/_bin/.gitignore.
+!pkg/audit/bin/
+!pkg/audit/bin/*.go
+!pkg/audit/bin/_bin/
+!pkg/audit/bin/_bin/.gitkeep
+!pkg/audit/bin/_bin/.gitignore
+.vscode
+
+# Go build artifacts
+*.test
+*.out
+*.cover
+coverage.out
+coverage.html
+coverage-combined.html
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.trae
+
+# cgo / compiler outputs
+*.o
+*.a
+*.obj
+
+# Logs
+*.log
+
+# SQLite databases (test artifacts)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Checked-in test fixtures are real test data, not runtime output. The
+# generic artifact rules above (*.log, *.sqlite, ...) must never silently
+# drop fixture files — e.g. xevon-audit evidence logs (exploit.log,
+# attempts.log, confirm-test-output.log) under the harness fixture corpus.
+# No parent dir of these is ignored, so this file-level negation re-includes them.
+!test/testdata/xevon-audit-data/**
+
+# Test workspace artifacts (state exports from executor tests)
+internal/executor/*/run-*.json
+internal/executor/*/run-*.yaml
+test/integration/*-test/
+!test/integration/*_test.go
+
+# Audit output dirs written by the harnesses into <source>/<harness-name>/
+# whenever xevon is self-audited (e.g. `xevon agent audit --source .`).
+/xevon-results/
+/piolium/
+**/xevon-results/audit-state.json
+**/xevon-results/audit-context.md
+**/xevon-results/findings/
+**/xevon-results/findings-draft/
+**/xevon-results/longshot/
+**/xevon-results/attack-surface/
+**/piolium/audit-state.json
+**/piolium/file-records/
+**/piolium/attack-surface/
+**/piolium/findings-draft/
+
+# some binaries and outputs from the skill that we don't want to accidentally commit
+# better to ignore the whole directory since there are multiple outputs and it can be hard to keep track of them all
+public/presets/deparos/jsscan/jsscan-*
+internal/resources/deparos/jsscan/*
+
+internal/resources/spitolas/chromium/*
+
+# sometimes the skill just builds a binary in the root of the repo, so ignore that too.
+# Anchored with a leading slash so it only matches the top-level binary — a bare
+# `xevon` pattern would also match cmd/xevon/ and silently drop the main package.
+/xevon
+
+.claude
+build/dist-license/
+build/dist-public/
+build/dist-npm/
+build/public-install.sh

@@ -1,0 +1,5 @@
+{
+  "name": "xevon-audit",
+  "description": "xevon-Audit security audit orchestration — /xevon-audit:* commands and specialized agents",
+  "version": "1.0.0"
+}

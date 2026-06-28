@@ -1,0 +1,26 @@
+[
+  {
+    "name": "xevon-admin",
+    "email": "",
+    "access_code": "",
+    "role": "admin"
+  },
+  {
+    "name": "xevon-operator",
+    "email": "",
+    "access_code": "",
+    "role": "operator"
+  },
+  {
+    "name": "xevon-analyst",
+    "email": "",
+    "access_code": "",
+    "role": "viewer"
+  },
+  {
+    "name": "xevon-auditor",
+    "email": "",
+    "access_code": "",
+    "role": "viewer"
+  }
+]
