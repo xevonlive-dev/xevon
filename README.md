@@ -4,10 +4,10 @@
   <strong>xevon — High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision</strong>
 
   <p align="center">
-  <a href="https://www.xevon.live"><img src="https://img.shields.io/badge/Internet-0078D4?style=flat&logo=globe&logoColor=8be9fd&labelColor=black&color=black"></a>
+  <a href="https://www.xevon.live"><img src="https://img.shields.io/badge/Internet-0078D4?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMTIgMmExNC41IDE0LjUgMCAwIDAgMCAyMCAxNC41IDE0LjUgMCAwIDAgMC0yMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwIi8+PC9zdmc+&labelColor=black&color=black"></a>
   <a href="https://docs.xevon.live/"><img src="https://img.shields.io/badge/Documentation-0078D4?style=flat&logo=GitBook&logoColor=8be9fd&labelColor=black&color=black"></a>
   <a href="https://twitter.com/xevon"><img src="https://img.shields.io/badge/xevon-0078D4?style=flat&logo=X&logoColor=f8f8f2&labelColor=black&color=black"></a>
-  <a href="https://www.linkedin.com/company/xevonlive"><img src="https://img.shields.io/badge/LinkedIn-0078D4?style=flat&logo=linkedin&logoColor=0A66C2&labelColor=black&color=black"></a>
+  <a href="https://www.linkedin.com/company/xevonlive"><img src="https://img.shields.io/badge/LinkedIn-0078D4?style=flat&logo=linkedin&logoColor=white&labelColor=black&color=black"></a>
   </p>
 </p>
 
