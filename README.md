@@ -7,8 +7,7 @@
   <a href="https://console.xevon.live/"><img src="https://img.shields.io/badge/xevon-Cloud-0078D4?style=flat&logo=google-cloud&logoColor=ffb86c&labelColor=black&color=black"></a>
   <a href="https://docs.xevon.live/"><img src="https://img.shields.io/badge/Documentation-0078D4?style=flat&logo=GitBook&logoColor=8be9fd&labelColor=black&color=black"></a>
   <a href="https://twitter.com/xevon"><img src="https://img.shields.io/badge/xevon-0078D4?style=flat&logo=X&logoColor=f8f8f2&labelColor=black&color=black"></a>
-  <a href="https://discord.gg/aHFypbAu6Y"><img src="https://img.shields.io/badge/Discord%20Server-0078D4?style=flat&logo=Discord&logoColor=bd93f9&labelColor=black&color=black"></a>
-  <a href="https://www.linkedin.com/company/xevon"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-black?logo=linkedin-white&logoColor=39ff14"></a>
+  <a href="https://www.linkedin.com/company/xevonlive"><img src="https://img.shields.io/badge/LinkedIn-0078D4?style=flat&logo=LinkedIn&logoColor=0A66C2&labelColor=black&color=black"></a>
   </p>
 </p>
 
