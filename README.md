@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="xevon" src="https://avatars.githubusercontent.com/u/266502139?s=200&v=4" height="140" />
+  <img alt="xevon" src="static/xevon-logo-minimal.png" height="140" />
   <br />
   <strong>xevon — High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision</strong>
 
