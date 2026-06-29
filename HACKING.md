@@ -4,7 +4,7 @@ This guide gives developers a high-level understanding of xevon's architecture, 
 
 ## What is xevon?
 
-xevon is a high-fidelity web vulnerability scanner written in Go. It can run as:
+xevon is a next-generation vulnerability discovery scanner powered by Agentic AI and built for scale, written in Go. It can run as:
 
 1. **CLI scanner** — scan targets directly from the command line
 2. **REST API server** — receive traffic via HTTP endpoints or a transparent proxy, scan on demand

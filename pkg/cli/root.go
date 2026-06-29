@@ -107,8 +107,8 @@ var (
 
 var rootCmd = &cobra.Command{
 	Use:   "xevon",
-	Short: "xevon - High-fidelity vulnerability scanner with native scan precision and agentic scan intelligence",
-	Long: `xevon is a web vulnerability scanner that combines a deterministic native engine with AI-driven (agentic) scanning.
+	Short: "xevon - Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale",
+	Long: `xevon is a next-generation vulnerability discovery scanner powered by Agentic AI and built for scale.
 
 Common workflows:
   • xevon scan        — run the full native pipeline against a target

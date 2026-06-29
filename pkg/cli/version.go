@@ -16,7 +16,7 @@ import (
 
 var (
 	Name               = "xevon"
-	Description        = "High-fidelity vulnerability scanner that combines speed, modularity, and precision"
+	Description        = "Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale"
 	Author             = "codiologies"
 	Version            = "v1.0.1"
 	Commit             = ""

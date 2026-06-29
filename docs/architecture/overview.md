@@ -7,7 +7,7 @@
 > - [data-and-storage.md](data-and-storage.md) — multi-tenancy, the database model, and cloud storage
 > - [server-and-api.md](server-and-api.md) — the REST server, traffic ingestion, and the API surface
 
-xevon is a high-fidelity web vulnerability scanner written in Go. It combines deterministic, module-based scanning with AI-driven agentic analysis to provide broad and deep coverage of web application security issues. The scanner ships 251 modules (154 active, 97 passive) covering injection flaws, misconfigurations, information disclosure, authentication issues, and more.
+xevon is a next-generation vulnerability discovery scanner powered by Agentic AI and built for scale, written in Go. It combines deterministic, module-based scanning with AI-driven agentic analysis to provide broad and deep coverage of web application security issues. The scanner ships 251 modules (154 active, 97 passive) covering injection flaws, misconfigurations, information disclosure, authentication issues, and more.
 
 xevon can operate as a CLI tool for one-off scans, as a persistent REST API server that ingests live traffic, or as a traffic-forwarding ingestor client (`xevon ingest`) that pushes traffic to a running server. All scan data is project-scoped for multi-tenancy support. Module: `github.com/xevonlive-dev/xevon`, requires Go 1.26+.
 

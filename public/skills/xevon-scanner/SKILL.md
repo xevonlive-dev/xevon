@@ -32,7 +32,7 @@ metadata:
 
 # xevon CLI
 
-Operator's guide for the [xevon](https://xevon.live/) high-fidelity web vulnerability scanner. Covers every command, flag, workflow pattern, scanning strategy, AI agent modes, and JavaScript extension authoring. Full documentation at [docs.xevon.live](https://docs.xevon.live/).
+Operator's guide for [xevon](https://xevon.live/) — Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale. Covers every command, flag, workflow pattern, scanning strategy, AI agent modes, and JavaScript extension authoring. Full documentation at [docs.xevon.live](https://docs.xevon.live/).
 
 ## Role Definition
 

@@ -4,7 +4,7 @@ Claude Code skill for operating the [xevon](https://xevon.live/) web vulnerabili
 
 ## What is xevon?
 
-[xevon](https://xevon.live/) is a high-fidelity web vulnerability scanner built for security professionals. It combines traditional DAST scanning with AI-powered analysis to find vulnerabilities in web applications. Full documentation is available at [docs.xevon.live](https://docs.xevon.live/). Key capabilities:
+[xevon](https://xevon.live/) represents Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale. It combines traditional DAST scanning with AI-powered analysis to find vulnerabilities in web applications. Full documentation is available at [docs.xevon.live](https://docs.xevon.live/). Key capabilities:
 
 - **Multi-phase scanning** — discovery, spidering, SPA analysis, audit, and SAST
 - **Flexible input** — scan URLs directly, or import from OpenAPI specs, Burp exports, HAR files, cURL commands, and more

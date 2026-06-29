@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-xevon is a high-fidelity web vulnerability scanner written in Go. It operates as a CLI scanner, REST API server with traffic ingestion, or traffic-forwarding ingestor client (`xevon ingest`). Module: `github.com/xevonlive-dev/xevon`, requires Go 1.26+.
+xevon is a next-generation vulnerability discovery scanner powered by Agentic AI and built for scale, written in Go. It operates as a CLI scanner, REST API server with traffic ingestion, or traffic-forwarding ingestor client (`xevon ingest`). Module: `github.com/xevonlive-dev/xevon`, requires Go 1.26+.
 
 ## Build & Test Commands
 
