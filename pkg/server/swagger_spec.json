@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "xevon API",
-    "description": "xevon \u2014 High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision",
+    "description": "xevon \u2014 Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale",
     "version": "1.0.0",
     "contact": {
       "name": "xevon",

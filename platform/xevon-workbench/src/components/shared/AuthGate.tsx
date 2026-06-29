@@ -186,7 +186,7 @@ export default function AuthGate({ children }: AuthGateProps) {
           {/* Animated Saturn orb logo */}
           <SaturnOrb size={360} className="mb-6" />
           <h1 className="text-sky-400 text-xl font-bold mb-3 text-center">xevon Workbench</h1>
-          <p className="text-sm leading-relaxed mb-6 text-center max-w-xl" style={{ color: 'var(--v-text-muted)' }}>High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision.</p>
+          <p className="text-sm leading-relaxed mb-6 text-center max-w-xl" style={{ color: 'var(--v-text-muted)' }}>Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale.</p>
 
           <div
             className="w-full max-w-md border text-center"

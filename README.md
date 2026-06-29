@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="xevon" src="static/xevon-logo-minimal.png" height="140" />
   <br />
-  <strong>xevon — High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision</strong>
+  <strong>xevon — Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale</strong>
 
   <p align="center">
   <a href="https://www.xevon.live"><img src="https://img.shields.io/badge/Internet-0078D4?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMTIgMmExNC41IDE0LjUgMCAwIDAgMCAyMCAxNC41IDE0LjUgMCAwIDAgMC0yMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwIi8+PC9zdmc+&labelColor=black&color=black"></a>

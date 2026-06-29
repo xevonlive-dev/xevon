@@ -48,7 +48,7 @@ const VERSION_GO = path.join(REPO_ROOT, "pkg", "cli", "version.go");
 const NPM_NAME = "@xevon/xevon";
 const LICENSE_ID = "AGPL-3.0-only";
 const HOMEPAGE = "https://xevon.live";
-const DESCRIPTION = "xevon - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision";
+const DESCRIPTION = "xevon - Next-Generation Vulnerability Discovery Powered by Agentic AI and Built for Scale";
 const KEYWORDS = [
   "xevon",
   "security",
